@@ -1,0 +1,57 @@
+name: Erratum report
+description: Report a reproducible error, ambiguity, or interoperability problem in a published 10RIS version.
+title: "[Erratum]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for improving 10RIS. Please report measured, reproducible concerns about a published specification version. Do not use this form for product support or general questions.
+  - type: input
+    id: version
+    attributes:
+      label: Specification version
+      description: Identify the published version you evaluated.
+      placeholder: v1.0
+    validations:
+      required: true
+  - type: input
+    id: location
+    attributes:
+      label: Relevant section or figure
+      description: Cite the section number, table row, figure, or exact wording.
+      placeholder: "Section 3, Clear opening"
+    validations:
+      required: true
+  - type: textarea
+    id: concern
+    attributes:
+      label: Observed interoperability concern
+      description: Explain what happened, what you expected, and why the published wording or drawing may be incorrect or ambiguous.
+      placeholder: Describe the observed and expected result.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Hardware and measurement evidence
+      description: Identify the hardware profile, measured values and units, measurement method, and relevant images or drawings.
+      placeholder: "Mounting-hole type: M6 threaded\nMeasured value: ... mm\nMethod: ..."
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Reproduction steps
+      description: Provide enough detail for another builder to reproduce or independently assess the concern.
+      placeholder: "1. ...\n2. ...\n3. ..."
+    validations:
+      required: true
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Submission checks
+      options:
+        - label: I searched existing issues for this concern.
+          required: true
+        - label: I understand that filing an issue does not create an approval, certification, or conformance decision.
+          required: true

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="820" viewBox="0 0 1080 820" role="img" aria-labelledby="title desc">
+  <title id="title">10RIS v1.0 Figure 2 — Vertical mounting-hole spacing</title>
+  <desc id="desc">One 44.45 millimetre rack unit is bounded halfway through the 12.70 millimetre group-to-group mounting-hole spacing: 6.35 millimetres above its first mounting-hole centre and 6.35 millimetres below its third centre.</desc>
+  <style>.rail{fill:#182235;stroke:#172033;stroke-width:3}.unit{fill:#eef2f6;fill-opacity:.8}.hole{fill:#fff;stroke:#c2410c;stroke-width:4}.line{stroke:#172033;stroke-width:2;fill:none}.accent{stroke:#c2410c;stroke-width:3;fill:none}.extension{stroke:#c2410c;stroke-width:3;fill:none;stroke-dasharray:8 7}.label{font:600 18px ui-monospace,SFMono-Regular,monospace;fill:#172033}.note{font:14px ui-monospace,SFMono-Regular,monospace;fill:#475569}</style>
+  <rect width="1080" height="820" fill="#fff"/>
+  <text x="60" y="56" class="label">10RIS v1.0 — FIGURE 2 / VERTICAL MOUNTING-HOLE SPACING / NORMATIVE</text>
+  <rect x="385" y="110" width="152" height="590" class="rail"/>
+  <rect x="350" y="210" width="222" height="355.6" class="unit" data-unit-height-mm="44.45" data-boundary-offset-mm="6.35"/>
+  <circle cx="461" cy="159.2" r="13" class="hole" data-hole="true"/>
+  <circle cx="461" cy="260.8" r="13" class="hole" data-hole="true"/>
+  <circle cx="461" cy="387.8" r="13" class="hole" data-hole="true"/>
+  <circle cx="461" cy="514.8" r="13" class="hole" data-hole="true"/>
+  <circle cx="461" cy="616.4" r="13" class="hole" data-hole="true"/>
+  <line x1="300" y1="210" x2="300" y2="565.6" class="line"/><line x1="290" y1="210" x2="310" y2="210" class="line"/><line x1="290" y1="565.6" x2="310" y2="565.6" class="line"/>
+  <line x1="300" y1="210" x2="350" y2="210" class="extension" data-dimension-extension="true"/><line x1="300" y1="565.6" x2="350" y2="565.6" class="extension" data-dimension-extension="true"/>
+  <text x="274" y="388" text-anchor="middle" transform="rotate(-90 274 388)" class="label">44.45 mm (1.750 in) / 1U</text>
+  <line x1="625" y1="210" x2="625" y2="260.8" class="accent"/><line x1="615" y1="210" x2="635" y2="210" class="accent"/><line x1="615" y1="260.8" x2="635" y2="260.8" class="accent"/>
+  <line x1="461" y1="210" x2="625" y2="210" class="extension" data-dimension-extension="true" data-vertical-reference="true"/><line x1="461" y1="260.8" x2="705" y2="260.8" class="extension" data-dimension-extension="true" data-vertical-reference="true"/>
+  <text x="655" y="241" class="label">6.35 mm (0.250 in)</text>
+  <line x1="705" y1="260.8" x2="705" y2="387.8" class="accent"/><line x1="695" y1="260.8" x2="715" y2="260.8" class="accent"/><line x1="695" y1="387.8" x2="715" y2="387.8" class="accent"/>
+  <line x1="461" y1="387.8" x2="705" y2="387.8" class="extension" data-dimension-extension="true" data-vertical-reference="true"/>
+  <text x="735" y="331" class="label">15.875 mm (0.625 in)</text>
+  <line x1="705" y1="387.8" x2="705" y2="514.8" class="accent"/><line x1="695" y1="514.8" x2="715" y2="514.8" class="accent"/>
+  <line x1="461" y1="514.8" x2="705" y2="514.8" class="extension" data-dimension-extension="true" data-vertical-reference="true"/>
+  <text x="735" y="458" class="label">15.875 mm (0.625 in)</text>
+  <line x1="625" y1="514.8" x2="625" y2="565.6" class="accent"/><line x1="615" y1="514.8" x2="635" y2="514.8" class="accent"/><line x1="615" y1="565.6" x2="635" y2="565.6" class="accent"/>
+  <line x1="461" y1="565.6" x2="625" y2="565.6" class="extension" data-dimension-extension="true" data-vertical-reference="true"/>
+  <text x="655" y="548" class="label">6.35 mm (0.250 in)</text>
+  <text x="60" y="756" class="note">The adjacent-group centre spacing is 12.70 mm (0.500 in); each 1U boundary is located halfway through that spacing.</text>
+</svg>
