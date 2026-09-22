@@ -13,6 +13,12 @@ The normative reference drawings are included with that release:
 - [Figure 3 — 9.5 mm square profile](specifications/v1.0/figures/figure-3-square-profile.svg)
 - [Figure 4 — M6 threaded profile](specifications/v1.0/figures/figure-4-m6-profile.svg)
 
+## Explore 10RIS online
+
+For a browser-readable edition with the surrounding Nodeqore standards context, read the [10RIS v1.0 specification on nodeqore.com](https://www.nodeqore.com/standards/10-inch-rack-interface/v1.0).
+
+To create a non-normative front-elevation reference for a selected mounting-hole type and rack height, use the [10RIS Rack Reference Generator](https://www.nodeqore.com/tools/10ris-rack-reference-generator). The published specification remains the source for conformance assessment.
+
 ## Scope
 
 10RIS defines the front-panel width, rail mounting-hole centrelines, vertical mounting-hole spacing, and two mounting-hole types. It does not set requirements for enclosure depth, rail construction, load rating, thermal performance, grounding, cable management, or accessory design.
